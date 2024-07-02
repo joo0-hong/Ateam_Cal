@@ -5,3 +5,14 @@ TEST(TestCaseName, TestName) {
   EXPECT_EQ(1, 1);
   EXPECT_TRUE(true);
 }
+
+TEST(TestCaseName, getMinus) {
+	// Arrange
+	Cal cal;
+
+	// Act
+
+	// Assert
+	EXPECT_EQ(1, cal.getMinus(2, 1));
+	EXPECT_EQ(-1, cal.getMinus(1, 2));
+}
