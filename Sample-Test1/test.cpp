@@ -16,3 +16,9 @@ TEST(TestCaseName, getMinus) {
 	EXPECT_EQ(1, cal.getMinus(2, 1));
 	EXPECT_EQ(-1, cal.getMinus(1, 2));
 }
+
+TEST(TestCaseName, TestGop) {
+	Cal cal;
+	EXPECT_EQ(cal.getGop(2, 3), 6);
+
+}
