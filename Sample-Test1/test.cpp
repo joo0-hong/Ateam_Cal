@@ -7,8 +7,8 @@ TEST(TestCaseName, TestName) {
 }
 
 TEST(TestCaseName, sumsumTest) {
-	Cal* calculator = new Cal();
+	Cal calculator;
 
-	EXPECT_EQ(3, calculator->getSumSum(1, 1, 1));
-	EXPECT_EQ(0, calculator->getSumSum(-1, 0, 1));
+	EXPECT_EQ(3, calculator.getSumSum(1, 1, 1));
+	EXPECT_EQ(0, calculator.getSumSum(-1, 0, 1));
 }
